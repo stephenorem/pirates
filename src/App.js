@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 
 import Header from './components/headerComponent/header';
-import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import Classespage from './components/pages/classesPage';
 import Lecturespage from './components/pages/lecturesPage';
@@ -21,10 +20,9 @@ class App extends Component {
         <div className="App">
           <Header />
             <Route exact path='/' component={Homepage} />
-            <Route exact path='/Classes' component={Classespage} />
-            <Route exact path='/Lectures' component={Lecturespage} />
+            <Route exact path='/Culture' component={Classespage} />
+            <Route exact path='/Language' component={Lecturespage} />
           <Pollypirate />
-          <Footer />
         </div>
       </Router>
     );

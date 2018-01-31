@@ -20,10 +20,10 @@ class Header extends Component {
               <Link to='/'>Home Port</Link>
             </li>
             <li>
-              <Link to='/Classes'>Ye Classes</Link>
+              <Link to='/Culture'>Ye Culture</Link>
             </li>
             <li className="last">
-              <Link to='/Lectures'>Ye Lectures</Link>
+              <Link to='/Language'>Ye Language</Link>
             </li>
           </ul>
         </nav>

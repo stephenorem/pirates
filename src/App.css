@@ -13,6 +13,13 @@
   color: black;
   font-weight: 400;
   font-style: normal;
+  height: 100%;
+  min-height: 100%;
+  background-color: #4195f4;
+}
+
+body {
+  background-color: #4195f4;
 }
 
 
